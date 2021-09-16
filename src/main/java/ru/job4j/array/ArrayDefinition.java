@@ -8,5 +8,14 @@ public class ArrayDefinition {
             System.out.println("Размер массива surnames: " + surnames.length);
         float[] pieces = new float[40];
             System.out.println("Размер массива pieces: " + pieces.length);
+        String[] names = new String[5];
+            names[1] = "Andrey";
+        System.out.println("Объект 1 ваше имя: " + names[1]);
+            names[2] = "Tommy";
+        System.out.println("Объект 2 ваше имя: " + names[2]);
+            names[3] = "Gaby";
+        System.out.println("Объект 3 ваше имя: " + names[3]);
+            names[4] = "Evlampiy";
+        System.out.println("Объект 4 ваше имя: " + names[4]);
     }
 }
