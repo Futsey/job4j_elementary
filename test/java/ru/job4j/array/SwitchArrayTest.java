@@ -14,4 +14,34 @@ public class SwitchArrayTest {
         int[] expected = {4, 2, 3, 1};
         Assert.assertArrayEquals(expected, result);
     }
+
+    @Test
+    public void whenSwap2to3() {
+        int[] input = {1, 2, 4, 3};
+        int source = 2;
+        int dest = 3;
+        int[] result = SwitchArray.swap(input, source, dest);
+        int[] expected = {1, 2, 3, 4};
+        Assert.assertArrayEquals(expected, result);
+    }
+
+    @Test
+    public void whenSwap1to3() {
+        int[] input = {1, 4, 3, 2};
+        int source = 1;
+        int dest = 3;
+        int[] result = SwitchArray.swap(input, source, dest);
+        int[] expected = {1, 2, 3, 4};
+        Assert.assertArrayEquals(expected, result);
+    }
+
+    @Test
+    public void whenSwap0to2() {
+        int[] input = {3, 2, 1, 4};
+        int source = 0;
+        int dest = 2;
+        int[] result = SwitchArray.swap(input, source, dest);
+        int[] expected = {1, 2, 3, 4};
+        Assert.assertArrayEquals(expected, result);
+    }
 }
