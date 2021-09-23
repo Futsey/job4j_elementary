@@ -20,4 +20,8 @@ public class EndsWithTest {
         boolean result = EndsWith.endsWith(word, post);
         Assert.assertFalse(result);
     }
+
+    @Test
+    public void endsWith() {
+    }
 }
