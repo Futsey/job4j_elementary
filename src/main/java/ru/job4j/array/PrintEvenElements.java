@@ -4,10 +4,10 @@ public class PrintEvenElements {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[numbers.length - 1 - i] % 2 == 0) {
+            if ((numbers.length - 1 - i) % 2 == 0) {
                 System.out.println(
-                        "Текущий ЧЕТНЫЙ6.4.1.1. Обход массива с последнего элемента [#361619] элемент массива начиная с последнего: "
-                                + numbers[numbers.length - 1 - i]
+                        "Текущий ЧЕТНЫЙ элемент массива начиная с последнего: "
+                                + (numbers.length - 1 - i)
                 );
             }
         }
