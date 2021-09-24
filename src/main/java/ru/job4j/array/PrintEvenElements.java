@@ -7,8 +7,7 @@ public class PrintEvenElements {
             if ((numbers.length - 1 - i) % 2 == 0) {
                 System.out.println(
                         "Текущий ЧЕТНЫЙ элемент массива начиная с последнего: "
-                                + (numbers.length - 1 - i)
-                );
+                                + (numbers[numbers.length - 1 - i]));
             }
         }
     }
