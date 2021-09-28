@@ -13,7 +13,7 @@ public class Defragment {
     public static String[] compress(String[] array) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == null) {
-                for (int k = i; k < array.length; k++) {
+                for (int k = i + 1; k < array.length; k++) {
                     if (array[k] != null) {
                         nullNonNullMethod(array, i, k);
                         break;
