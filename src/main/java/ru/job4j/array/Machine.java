@@ -10,12 +10,10 @@ public class Machine {
         int size = 0;
         int cash = money - price;
 
-        for (int coinIndex = 0; coinIndex < coins.length; coinIndex++) {
-            int currentCoin = coins[coinIndex];
-            int divider = cash / currentCoin;
-                while (divider-- > 0) {
-                    rsl[size++] = currentCoin;
-                    cash -= currentCoin;
+        for (int coinIndex : coins) {
+                while (cash >= coinIndex) {
+                    rsl[size++] = coinIndex;
+                    cash -= coinIndex;
             }
         }
 
