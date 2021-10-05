@@ -1,5 +1,9 @@
 # job4j
 
-Something very serious must be written here ... But I have no time, I am learning to think in Java. And I study so hard that I look like the dude below. And yes, thanks for stopping by ...
+ВАЖНО! Этот файл предназначен к использованию исключительно в целях прохождения курса и не представляет собой общепринятый оформленный документ!
 
-![](https://media.giphy.com/media/eBCP5amz9IdHi/giphy.gif)  
+1. О проекте. Учусь использовать инструмент сборки Maven. Пишу модульные тесты и оформляю свой код, так как это делают профессионалы. Знакомлюсь с базовыми принципами построения программы через объектно-ориентированный подход. Учусь использовать Java Collections Frameworks. 
+2. Сборка или установка. на данный момент использую сборщик MAven
+3. Этот репозиторий создан не для широкого использования, а в учебных целях.
+4. Контакты. Мой GIT: https://github.com/Futsey
+
