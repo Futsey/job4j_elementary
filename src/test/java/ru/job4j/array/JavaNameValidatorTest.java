@@ -34,7 +34,6 @@ class JavaNameValidatorTest {
 
     @Test
     void whenNumberInValid() {
-        boolean rsl = isNameValid("123");
         assertThat(isNameValid("123")).isFalse();
     }
 
